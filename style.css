@@ -1,0 +1,44 @@
+body {
+    background-color: green;
+}
+.first {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    width: 416px;
+    height: 299px;
+}
+.logo {
+    width: 111.8px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    width: 187px;
+    height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.group {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+    width: 644.28px;
+    height: 378.13px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
