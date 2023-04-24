@@ -129,27 +129,23 @@ main {
     }
     .column-partners > h1 {
         font-size: 18px;
-      }
-    
+    } 
     .column-partners > h2 {
         font-size: 28px;
-      }
-    
+    }
     .column-partners > p {
         font-size: 25px;
-      }
-    
+    }
     .partners-images {
         margin-top: 40px;
         flex-direction: column;
         gap: 40px;
-      }
-    
+    }
     .second-section > .learn-more {
         margin-top: 400px;
         margin-bottom: 20px;
         font-size: 25px;
         width: auto;
         padding: 15px 35px;
-      }
+    }
 }
