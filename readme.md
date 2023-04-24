@@ -6,7 +6,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at:
+Site published at: https://soliunas.github.io/New-folder/
 
 Design: [BitStart](https://ibb.co/ryT0Vps)
 
