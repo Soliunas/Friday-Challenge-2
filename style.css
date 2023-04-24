@@ -2,7 +2,8 @@ body,
 body * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main {
     display: flex;
@@ -12,9 +13,9 @@ main {
     width: 100%;
 }
 .first-section {
-    background-color: #74c69d;
     display: flex;
     justify-content: space-between;
+    background-color: #74c69d;
     align-items: center;
     width: 100%;
     padding: 30px 120px 90px;
@@ -23,54 +24,49 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 30%;
+    width: 35%;
 }
 .group-image {
-    width: 60%;
-    margin-bottom: 30px;
+    height: 50%;
+    width: 50%;
 }
 .partners-images {
-    margin-top: 40px;
-    flex-direction: column;
-    gap: 40px;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
     align-items: center;
-    height: 30px;
+    gap: 35px;
+    height: 35px;
 }
 .second-section {
-    padding: 30px 120px 30px;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    padding: 30px 120px 30px;
+    text-align: center;
     gap: 80px;
     width: 100%;
     margin-top: 30px;
 }
-
 .column-left > h1 {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #ffff;
 }
 .column-left > h2 {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
     color: #ffff;
 }
 .column-left > p {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
     color: #fffb
 }
 .column-left > a {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 25px;
     width: 170px;
     text-align: center;
-    display: inline-block;
     color: #000c;
     background-color: #ffff;
     text-decoration: none;
@@ -88,21 +84,20 @@ main {
     font-size: 16px;
     margin-bottom: 20px;
     letter-spacing: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .column-partners > h2 {
     color: black;
     font-size: 30px;
     font-style: normal;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .column-partners > p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
-.column-partners > a {
-    font-size: 20px;
+.second-section > .learn-more {
+    font-size: 25px;
     text-decoration: none;
     background-color: black;
     color: #fffc;
@@ -111,9 +106,54 @@ main {
     display: block;
     padding: 15px;
     border-radius: 5px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0 auto;  
 }
-.column-partners > a:hover {
-    color: #74c69d;
+@media (max-width: 440px) {
+    .first-section {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .column-left {
+        width: 100%;
+        order: 2;
+    }
+    .column-left > h1 {
+        font-size: 25px;
+    }
+    .column-left > h2 {
+        font-size: 30px;
+    }
+    .group-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .second-section {
+        padding: 10px;
+        gap: 20px;
+    }
+    .column-partners > h1 {
+        font-size: 18px;
+      }
+    
+    .column-partners > h2 {
+        font-size: 28px;
+      }
+    
+    .column-partners > p {
+        font-size: 25px;
+      }
+    
+    .partners-images {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 40px;
+      }
+    
+    .second-section > .learn-more {
+        margin-top: 400px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        width: auto;
+        padding: 15px 35px;
+      }
 }
